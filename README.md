@@ -1,14 +1,17 @@
 # DocIntel | AI-Powered Document Intelligence
 
-An intelligent document processing platform that combines **Azure AI Document Intelligence, custom CV extraction, and AI-powered document conversations** in one application.
+An AI-powered document processing platform combining **Azure AI Document Intelligence, custom model training, and intelligent document conversations** in one application.
 
 ### Core Capabilities
 
-- **Document Understanding:** Extract text and layout information from different types of documents using Azure AI Document Intelligence.
-- **Custom CV Extraction:** Train and deploy custom models to extract structured information from CVs.
-- **Chat with Your Documents:** Ask questions about uploaded documents and receive AI-generated answers grounded in their content.
+- **Document Understanding:** Extract text, layout, and structured information from multiple document types using Azure AI Document Intelligence.
+- **Custom Model Training:** Train and use custom extraction models to extract structured data from CVs and other supported documents.
+- **Batch Processing:** Process multiple PDF documents and use different trained models within the same workflow.
+- **Multilingual Support:** Analyze documents in multiple languages.
+- **Chat with Your Documents:** Ask questions about uploaded documents and receive AI-generated, context-grounded answers in the same language as your query.
 - **Azure Blob Storage:** Store uploaded documents in the cloud and retrieve them for analysis and question answering.
-- **Visual Document Analysis:** Classify document sections and visualize extracted content directly on PDF pages.
+- **Caching:** Cache processing results to reduce redundant operations and improve efficiency.
+- **Visual Document Analysis:** Identify document sections and visualize extracted information directly on PDF pages.
 
 ### Built With
 
